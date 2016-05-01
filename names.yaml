@@ -1,0 +1,250 @@
+
+all:
+  - /generic
+  - /admin
+  - /auth
+  - /company
+  - /programming-languages
+  - /mail
+  - /null
+  - /protocol
+  - /unix
+
+# non-admin common mailbox names
+# Many come from here: http://blog.postbit.com/reserved-username-list.html
+generic:
+  - ""
+  - "0"
+  - blog
+  - bug
+  - business
+  - company
+  - default
+  - devel
+  - email
+  - example
+  - forum
+  - group
+  - guest
+  - help
+  - home
+  - info
+  - legal
+  - license
+  - log
+  - m
+  - maintenance
+  - mobile
+  - news
+  - notification
+  - notify
+  - owner
+  - portal
+  - post
+  - profile
+  - sample
+  - samples
+  - script
+  - scripts
+  - search
+  - secure
+  - security
+  - service
+  - setting
+  - settings
+  - site
+  - stats
+  - sys
+  - system
+  - test*
+  - tmp
+  - upload
+  - url
+  - usage
+  - webmail
+  - website*
+  - workshop
+  - you
+  - yourdomain
+  - yourname
+  - yoursite
+  - yourusername
+
+admin:
+  - adm
+  - admin
+  - administrator
+  - root
+
+auth:
+  - account
+  - address
+  - anon
+  - anonymous
+  - auth
+  - authentication
+  - login
+  - oauth
+  - oauth2
+  - password
+  - password
+  - user
+  - username
+
+company:
+  - business
+  - company
+  - info
+  - legal
+  - license
+  - news
+  - policy
+  - privacy
+  - service
+
+programming-languages:
+  - perl
+  - php*
+  - python
+  - ruby
+  - sql
+
+# common mailbox names
+mail:
+  - /mail-rfc
+  - /mail-list
+  - contact
+  - email
+  - mail
+  - mailto
+  - mx
+  - name
+  - register
+  - registration
+  - send
+  - signin
+  - signup
+
+# See RFC2142
+mail-rfc:
+  - /mail-rfc-business
+  - /mail-rfc-network
+  - /mail-rfc-support
+
+mail-rfc-business:
+  - info
+  - marketing
+  - sales
+  - support
+
+mail-rfc-network:
+  - abuse
+  - noc
+  - security
+
+mail-rfc-support:
+  - postmaster
+  - hostmaster
+  - usenet
+  - news
+  - webmaster
+  - www
+  - uucp
+  - ftp
+
+# mailing lists
+mail-list:
+  - list
+  - lists
+  - signup
+  - subscribe
+
+"null":
+  - blackhole
+  - devnull
+  - "null"
+  - zero
+
+protocol:
+  - cgi
+  - dns
+  - ftp
+  - http
+  - https
+  - imap
+  - irc
+  - named
+  - ns
+  - pop3
+  - rss
+  - ssh
+  - smtp
+  - telnet
+  - uucp
+
+unix:
+  - /unix-daemon
+  - Debian-exim
+  - _apt
+  - avahi
+  - backup
+  - bin
+  - bluetooth
+  - cron
+  - crontab
+  - daemon
+  - games
+  - gnats
+  - hplip
+  - irc
+  - kvm
+  - libvirt-qemu
+  - list
+  - lp
+  - mail
+  - man
+  - messagebus
+  - news
+  - nobody
+  - nogroup
+  - ntp
+  - proxy
+  - root
+  - shadow
+  - ssh
+  - staff
+  - statd
+  - sync
+  - sys
+  - systemd-*
+  - usbmux
+  - users
+  - uucp
+  - www-data
+
+unix-daemon:
+  - apache
+  - apache2
+  - colord
+  - crond
+  - dnsmasq
+  - ftpd
+  - geoclue
+  - httpd
+  - inetd
+  - init
+  - libvirt-qemu
+  - lightdm
+  - lighttpd
+  - lpd
+  - mysql
+  - nfsd
+  - nginx
+  - ntpd
+  - postfix
+  - pulse
+  - rtkit
+  - saned
+  - sendmail
+  - sshd
+  - syslogd
