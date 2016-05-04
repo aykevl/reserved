@@ -9,11 +9,7 @@ Warning: there are probably a few more addresses you want to protect, like the
 one in your domain's WHOIS. That address should already exist, though, and
 should really be something like 'hostmaster' anyway.
 
-License:  
-<a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
-  ![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)
-</a>  
-This list is in the public domain, use it however you want.
+License: BSD 2-clause
 
 Resources:
 
