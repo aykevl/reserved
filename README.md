@@ -5,9 +5,12 @@ in an email address or Unix user, it is important to check against some common
 usernames, like 'root', 'postmaster', and 'postfix'. This library is an attempt
 for that.
 
-Warning: there are probably a few more addresses you want to protect, like the
-one in your domain's WHOIS. That address should already exist, though, and
-should really be something like 'hostmaster' anyway.
+You should check the following:
+  * The address in your WHOIS, wich may be used for things like registering a
+    TLS certificate. It should really be something like hostmaster@ anyway, so
+    this *should not* be an issue.
+  * If you make Unix accounts with these names, check which names occur in
+    `/etc/passwd` (and possibly `/etc/shadow`).
 
 License: BSD 2-clause
 
