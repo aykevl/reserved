@@ -177,6 +177,8 @@ protocol:
   - ns
   - pop3
   - rss
+  - samba
+  - smb
   - ssh
   - smtp
   - telnet
